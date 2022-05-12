@@ -1,0 +1,209 @@
+.color-white {
+    color: white;
+}
+
+// .overflow {
+//     overflow-x: hidden;
+// }
+// For Navbar
+.align-hello {
+    margin-right: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .marginLeft {
+        margin-left: 58%;
+    }
+}
+
+.mail {
+    color: #17a2b7;
+    text-decoration: none;
+}
+
+.emphasize {
+    font-weight: bold;
+}
+//For all pages
+
+.required::before 
+{ 
+    content:"*"; 
+    font-weight: bold;
+    color: #e32;
+    font-size: 1.5em;
+
+}
+
+input:focus{
+    border: 1px solid #17a2b7;
+}
+
+.error-color{
+    color: red;
+}
+// For Login and Register
+
+.padding-signup{
+    padding: 2.5rem 2rem;
+}
+.index-page {
+    min-height: 100vh;
+    background-color: #17a2b7;
+}
+
+.btn-width {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+.bullet {
+    list-style-type: circle;
+}
+
+//For Calendar Page
+.date-style {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.date-heading-align {
+    margin-right: 80px;
+}
+.calendar {
+    position: relative;
+}
+.hour {
+    height: 30px;
+    margin-bottom: 4px;
+}
+.meeting {
+    position: absolute;
+    background-color: #ddd;
+    width: 91%;
+    padding: 0.3em;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+h3 {
+    color: grey;
+}
+.date-heading {
+    padding-left: 3%;
+    display: inline-block;
+    width: 100%;
+    hr {
+        color: #ccc;
+    }
+}
+.date-heading-child {
+    float: left;
+    width: 70%;
+}
+.date-picker {
+    float: left;
+    width: 30%;
+    margin-top: 1%;
+    text-align: center;
+    input {
+        width: 79%;
+        padding: 12px;
+    }
+}
+.num {
+    float: left;
+    width: 3%;
+    background-color: white;
+    margin-right: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+.hour-box {
+    float: left;
+    width: 95%;
+    height: 60px;
+    margin-bottom: 4px;
+    background-color: rgb(116, 200, 213);
+}
+.calendar-align-left{
+    left: 40px;
+}
+.meet-title,
+.meet-attendees {
+    // font-size: 8px;
+    line-height: 1;
+    display: inherit;
+    padding: 0;
+}
+.meet-title {
+    font-weight: bold;
+}
+hr {
+    margin: 1px;
+    width: 95%;
+}
+#meeting-1 {
+    top: 70px;
+    margin-left: 5%;
+    font-size: 15px;
+}
+#meeting-2 {
+    top: 192px;
+    height: 60px;
+    margin-left: 5%;
+    font-size: 15px;
+}
+.alert-info {
+    border: 2px solid;
+    border-color: navy;
+    padding: 0 2%;
+}
+.alert-danger {
+    border: 2px solid;
+    border-color: crimson;
+    padding: 0 2%;
+}
+.hide {
+    display: none;
+}
+.absolute-div {
+    position: absolute;
+    background-color: #ccc;
+}
+
+//For Filter Meetings Page
+.width-input {
+    width: 30%;
+}
+
+.date {
+    font-size: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.option-position {
+    width: 100% !important;
+}
+
+//For Add Meeting Page
+
+//For Teams Page
+.btn-add-teams {
+    min-height: 300px;
+    font-size: 40px !important;
+    color: black !important;
+}
+//Error Message
+
+.formError {
+    margin: 1em 0;
+    color: red;
+    font-size: 0.85em;
+}
